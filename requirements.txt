@@ -1,0 +1,32 @@
+# Vulnerable packages for testing SBOM scanner
+# These packages have known CVEs that should be detected
+
+# Flask 0.12.3 - CVE-2019-1010083 (XSS vulnerability)
+Flask==0.12.3
+
+# requests 2.19.1 - CVE-2018-18074 (SSRF vulnerability)
+requests==2.19.1
+
+# urllib3 1.24.3 - CVE-2019-11324 (CRLF injection)
+urllib3==1.24.3
+
+# PyYAML 5.1 - CVE-2019-20477 (code execution vulnerability)
+PyYAML==5.1
+
+# Jinja2 2.10.1 - CVE-2019-8341 (XSS vulnerability)
+Jinja2==2.10.1
+
+# Werkzeug 0.14.1 - CVE-2019-14806 (path traversal)
+Werkzeug==0.14.1
+
+# cryptography 2.1.4 - CVE-2018-10903 (timing attack)
+cryptography==2.1.4
+
+# lxml 4.2.5 - CVE-2019-17571 (XXE vulnerability)
+lxml==4.2.5
+
+# Pillow 5.2.0 - CVE-2019-6977 (DoS vulnerability)
+Pillow==5.2.0
+
+# Django 1.11.23 - CVE-2019-6977 (multiple vulnerabilities)
+Django==1.11.23 
