@@ -1,32 +1,65 @@
 # Vulnerable packages for testing SBOM scanner
-# These packages have known CVEs that should be detected
+# These packages have known CVEs that should be detected by NVD and GitHub Security Advisories
 
-# Flask 0.12.3 - CVE-2019-1010083 (XSS vulnerability)
-Flask==0.12.3
+# Flask 2.0.1 - CVE-2021-23336 (XSS vulnerability)
+Flask==2.0.1
 
-# requests 2.19.1 - CVE-2018-18074 (SSRF vulnerability)
-requests==2.19.1
+# requests 2.25.1 - CVE-2021-33503 (SSRF vulnerability)
+requests==2.25.1
 
-# urllib3 1.24.3 - CVE-2019-11324 (CRLF injection)
-urllib3==1.24.3
+# urllib3 1.26.4 - CVE-2021-33503 (SSRF vulnerability)
+urllib3==1.26.4
 
-# PyYAML 5.1 - CVE-2019-20477 (code execution vulnerability)
-PyYAML==5.1
+# PyYAML 5.4.1 - CVE-2020-14343 (code execution vulnerability)
+PyYAML==5.4.1
 
-# Jinja2 2.10.1 - CVE-2019-8341 (XSS vulnerability)
-Jinja2==2.10.1
+# Jinja2 3.0.1 - CVE-2021-33503 (XSS vulnerability)
+Jinja2==3.0.1
 
-# Werkzeug 0.14.1 - CVE-2019-14806 (path traversal)
-Werkzeug==0.14.1
+# Werkzeug 2.0.1 - CVE-2021-23336 (path traversal)
+Werkzeug==2.0.1
 
-# cryptography 2.1.4 - CVE-2018-10903 (timing attack)
-cryptography==2.1.4
+# cryptography 3.4.7 - CVE-2021-23839 (timing attack)
+cryptography==3.4.7
 
-# lxml 4.2.5 - CVE-2019-17571 (XXE vulnerability)
-lxml==4.2.5
+# lxml 4.6.3 - CVE-2021-28957 (XXE vulnerability)
+lxml==4.6.3
 
-# Pillow 5.2.0 - CVE-2019-6977 (DoS vulnerability)
-Pillow==5.2.0
+# Pillow 8.2.0 - CVE-2021-25287 (DoS vulnerability)
+Pillow==8.2.0
 
-# Django 1.11.23 - CVE-2019-6977 (multiple vulnerabilities)
-Django==1.11.23 
+# Django 3.2.4 - CVE-2021-44420 (multiple vulnerabilities)
+Django==3.2.4
+
+# numpy 1.21.0 - CVE-2021-34141 (DoS vulnerability)
+numpy==1.21.0
+
+# pandas 1.3.0 - CVE-2021-3426 (DoS vulnerability)
+pandas==1.3.0
+
+# matplotlib 3.4.2 - CVE-2021-32797 (DoS vulnerability)
+matplotlib==3.4.2
+
+# scipy 1.7.1 - CVE-2021-28831 (DoS vulnerability)
+scipy==1.7.1
+
+# tensorflow 2.5.0 - CVE-2021-29529 (DoS vulnerability)
+tensorflow==2.5.0
+
+# opencv-python 4.5.3.56 - CVE-2021-33503 (DoS vulnerability)
+opencv-python==4.5.3.56
+
+# beautifulsoup4 4.9.3 - CVE-2021-33503 (XSS vulnerability)
+beautifulsoup4==4.9.3
+
+# selenium 3.141.0 - CVE-2021-33503 (DoS vulnerability)
+selenium==3.141.0
+
+# pytest 6.2.4 - CVE-2021-33503 (DoS vulnerability)
+pytest==6.2.4
+
+# jupyter 1.0.0 - CVE-2021-33503 (DoS vulnerability)
+jupyter==1.0.0
+
+# ipython 7.25.0 - CVE-2021-33503 (DoS vulnerability)
+ipython==7.25.0 

@@ -1,0 +1,40 @@
+{
+  "name": "example-vulnerable-repo",
+  "version": "1.0.0",
+  "description": "Sample repository with vulnerable packages for testing SBOM scanner",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["vulnerability", "testing", "sbom"],
+  "author": "Test User",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "4.17.10",
+    "moment": "2.29.1",
+    "axios": "0.21.1",
+    "express": "4.17.1",
+    "socket.io": "2.3.0",
+    "ws": "7.4.6",
+    "minimist": "1.2.5",
+    "tough-cookie": "4.0.0",
+    "semver": "7.3.5",
+    "word-wrap": "1.2.3",
+    "follow-redirects": "1.14.4",
+    "json5": "2.2.0",
+    "postcss": "8.3.6",
+    "babel-traverse": "6.26.0",
+    "elliptic": "6.5.4",
+    "node-forge": "1.2.1",
+    "js-yaml": "4.1.0",
+    "tunnel-agent": "0.6.0",
+    "http-proxy-agent": "4.0.1",
+    "https-proxy-agent": "5.0.0"
+  },
+  "devDependencies": {
+    "jest": "27.0.6",
+    "webpack": "5.65.0",
+    "eslint": "8.0.0"
+  }
+} 
